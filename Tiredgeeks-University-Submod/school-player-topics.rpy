@@ -382,7 +382,3 @@ label tiredgeeks_holidays:
     m 2hub "And when the holidays come, we'll celebrate every moment together~"
     m 5gublb "I can't wait for you to have more time for me~"
     return
-            m 3eub "So what did you decide to study instead?"
-            jump tiredgeeks_update_major
-
-    return
