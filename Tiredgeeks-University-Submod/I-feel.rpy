@@ -5,7 +5,7 @@
 init 5 python:
     addEvent(
         Event(
-            persistent.mas_mood_database,
+            persistent._mas_mood_database,
             eventlabel="tiredgeeks_burntout",
             category=["store.mas_moods.TYPE_BAD"],
             prompt="I'm feeling burnt out.",
@@ -25,7 +25,7 @@ label tiredgeeks_burntout:
 init 5 python:
     addEvent(
         Event(
-            persistent.mas_mood_database,
+            persistent._mas_mood_database,
             eventlabel="tiredgeeks_feel_grade",
             category=["store.mas_moods.TYPE_NEUTRAL"],
             prompt="I'm feeling something about my grade.",
@@ -66,7 +66,7 @@ label tiredgeeks_feel_grade:
 init 5 python:
     addEvent(
         Event(
-            persistent.mas_mood_database,
+            persistent._mas_mood_database,
             eventlabel="tiredgeeks_feel_depressed",
             category=["store.mas_moods.TYPE_BAD"],
             prompt="I'm feeling depressed.",
@@ -117,7 +117,7 @@ label tiredgeeks_feel_depressed:
 init 5 python:
     addEvent(
         Event(
-            persistent.mas_mood_database,
+            persistent._mas_mood_database,
             eventlabel="tiredgeeks_feel_group_project",
             category=["store.mas_moods.TYPE_BAD"],
             prompt="I'm annoyed with my group project.",
