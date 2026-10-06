@@ -1,4 +1,3 @@
-```renpy
 # ============================================================
 # UNIVERSITY INFORMATION
 # ============================================================
@@ -425,4 +424,3 @@ label tiredgeeks_changed_major:
             m 5eub "Got it! I'll remember your new major."
 
     return
-```
