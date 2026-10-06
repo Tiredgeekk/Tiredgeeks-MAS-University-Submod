@@ -8,7 +8,7 @@ init 5 python:
             persistent._mas_mood_database,
             eventlabel="tiredgeeks_burntout",
             category=["store.mas_moods.TYPE_BAD"],
-            prompt="I'm feeling burnt out.",
+            prompt="...burnt out.",
             unlocked=True,
         ),
         code="MOO"
@@ -28,7 +28,7 @@ init 5 python:
             persistent._mas_mood_database,
             eventlabel="tiredgeeks_feel_grade",
             category=["store.mas_moods.TYPE_NEUTRAL"],
-            prompt="I'm feeling something about my grade.",
+            prompt="...something about my grade.",
             unlocked=True,
         ),
         code="MOO"
@@ -69,7 +69,8 @@ init 5 python:
             persistent._mas_mood_database,
             eventlabel="tiredgeeks_feel_depressed",
             category=["store.mas_moods.TYPE_BAD"],
-            prompt="I'm feeling depressed.",
+            prompt="...
+depressed.",
             unlocked=True,
         ),
         code="MOO"
@@ -120,7 +121,7 @@ init 5 python:
             persistent._mas_mood_database,
             eventlabel="tiredgeeks_feel_group_project",
             category=["store.mas_moods.TYPE_BAD"],
-            prompt="I'm annoyed with my group project.",
+            prompt="...annoyed with my group project.",
             unlocked=True,
         ),
         code="MOO"
