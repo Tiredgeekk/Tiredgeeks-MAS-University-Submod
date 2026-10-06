@@ -1,4 +1,4 @@
-# All random Monika-initiated school conversations go here
+# All random Monika-initiated conversations go here
 
 
 # Topic: Class Check-in
@@ -6,14 +6,14 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_c_class_check_in",
+            eventlabel="tiredgeeks_class_check_in",
             category=["School"],
             prompt="Class Check-in",
             random=True
         )
     )
 
-label hv_c_class_check_in:
+label tiredgeeks_class_check_in:
     m 2eub "So [player], how have your classes been going lately?"
     m 3lkb "I know semesters can feel like a bit of a rollercoaster—some days exciting, other days pretty draining."
     m 3wud "Did you know that in Japan, students actually take off their shoes when entering classrooms? It's meant to keep the learning space clean and focused."
@@ -27,16 +27,16 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_c_library_thoughts",
+            eventlabel="tiredgeeks_library_thoughts",
             category=["School"],
             prompt="Thoughts About Libraries",
             random=True
         )
     )
 
-label hv_c_library_thoughts:
+label tiredgeeks_library_thoughts:
     m 1lsd "You know, I keep thinking about libraries..."
-    m 3eub "They're not just places to borrow books… they've always been symbols of knowledge and community."
+    m 3eub "They're not just places to borrow books… they’ve always been symbols of knowledge and community."
     m 4eub "Fun fact: the Library of Alexandria supposedly held over 400,000 scrolls at its peak. Imagine all the ideas stored in one place!"
     m 5lublb "I bet if we studied there together, I'd be the one you'd have to drag out at closing time, ahaha~"
     return
@@ -47,14 +47,14 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_c_study_breaks",
+            eventlabel="tiredgeeks_study_breaks",
             category=["School"],
             prompt="Study Breaks",
             random=True
         )
     )
 
-label hv_c_study_breaks:
+label tiredgeeks_study_breaks:
     m 2ekb "So, have you been remembering to take breaks when you study?"
     m 1ekb "I read that your brain processes information best in chunks—about 25 to 50 minutes at a time."
     m 3hub "It's called the Pomodoro technique. You work hard, then give yourself a little reward."
@@ -67,14 +67,14 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_c_fav_study",
+            eventlabel="tiredgeeks_fav_study",
             category=["School"],
             prompt="Favorite Subject",
             random=True
         )
     )
 
-label hv_c_fav_study:
+label tiredgeeks_fav_study:
     m 1eua "Hey, [player]... do you have a favorite subject this term?{nw}"
     $ _history_list.pop()
 
@@ -128,14 +128,14 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_c_group_projects",
+            eventlabel="tiredgeeks_group_projects",
             category=["School"],
             prompt="Group Projects",
             random=True
         )
     )
 
-label hv_c_group_projects:
+label tiredgeeks_group_projects:
     m 1eka "Ugh, group projects..."
     m 3eka "I bet you've had to deal with one already."
     m 3eud "Did you know research shows that in most groups, only about two people end up doing most of the work?"
@@ -151,14 +151,14 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_c_procrastination",
+            eventlabel="tiredgeeks_procrastination",
             category=["School"],
             prompt="Procrastination",
             random=True
         )
     )
 
-label hv_c_procrastination:
+label tiredgeeks_procrastination:
     m 1tkbld "Be honest with me, [player]… have you been procrastinating again?"
     m 4hkblsdlb "It's okay, I get it. Our brains like the comfort of putting things off."
     m 7hublb "But fun fact: procrastination isn't about laziness—it's actually about avoiding uncomfortable feelings."
@@ -173,14 +173,14 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_c_school_stress",
+            eventlabel="tiredgeeks_school_stress",
             category=["School"],
             prompt="Stress",
             random=True
         )
     )
 
-label hv_c_school_stress:
+label tiredgeeks_school_stress:
     m 1ekbld "University stress can really pile up fast, can't it?"
     m 2lkb "Sometimes it feels like assignments and exams are just waiting to ambush you from every corner."
     m 7eub "There's this idea in psychology called the 'Yerkes-Dodson law.' It says a little stress can actually boost performance… but too much stress makes things collapse."
@@ -194,14 +194,14 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_c_professors",
+            eventlabel="tiredgeeks_professors",
             category=["School"],
             prompt="Professors",
             random=True
         )
     )
 
-label hv_c_professors:
+label tiredgeeks_professors:
     m 2eublb "Have you had any professors that really inspire you?"
     m 3eublb "Sometimes one teacher can change the whole way you look at a subject."
     m 3lublb "Plato actually wrote about this too—he believed a good teacher doesn't just share knowledge, but sparks curiosity."
@@ -215,14 +215,14 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="hv_c_study_spots",
+            eventlabel="tiredgeeks_study_spots",
             category=["School"],
             prompt="Study Spots",
             random=True
         )
     )
 
-label hv_c_study_spots:
+label tiredgeeks_study_spots:
     m 3etb "Where do you usually like to study?{nw}"
     $ _history_list.pop()
 
