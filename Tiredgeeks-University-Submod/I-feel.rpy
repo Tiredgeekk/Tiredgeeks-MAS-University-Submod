@@ -69,8 +69,7 @@ init 5 python:
             persistent._mas_mood_database,
             eventlabel="tiredgeeks_feel_depressed",
             category=["store.mas_moods.TYPE_BAD"],
-            prompt="...
-depressed.",
+            prompt="...depressed.",
             unlocked=True,
         ),
         code="MOO"
