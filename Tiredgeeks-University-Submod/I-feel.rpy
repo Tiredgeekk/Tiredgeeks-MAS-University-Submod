@@ -63,7 +63,6 @@ label tiredgeeks_feel_grade:
 
     return
 
-```renpy
 init 5 python:
     addEvent(
         Event(
