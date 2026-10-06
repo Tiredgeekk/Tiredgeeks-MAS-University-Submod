@@ -436,7 +436,7 @@ label tiredgeeks_declared_major:
 label tiredgeeks_university_info:
 
     # YEAR
-    m 6wub "That's great!
+    m 6wub "That's great!"
     m 7eub "But first, what year are you in?"
 
     menu:
