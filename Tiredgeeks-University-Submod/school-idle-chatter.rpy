@@ -1,4 +1,4 @@
-# All random Monika-initiated conversations go here
+# All random and Monika/player initiated conversations go here
 
 
 # Topic: Class Check-in
@@ -7,7 +7,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="tiredgeeks_class_check_in",
-            category=["School"],
+            category=["university"],
             prompt="Class Check-in",
             random=True
         )
@@ -28,7 +28,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="tiredgeeks_library_thoughts",
-            category=["School"],
+            category=["university"],
             prompt="Thoughts About Libraries",
             random=True
         )
@@ -48,7 +48,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="tiredgeeks_study_breaks",
-            category=["School"],
+            category=["university"],
             prompt="Study Breaks",
             random=True
         )
@@ -68,7 +68,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="tiredgeeks_fav_study",
-            category=["School"],
+            category=["university"],
             prompt="Favorite Subject",
             random=True
         )
@@ -129,7 +129,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="tiredgeeks_group_projects",
-            category=["School"],
+            category=["university"],
             prompt="Group Projects",
             random=True
         )
@@ -152,7 +152,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="tiredgeeks_procrastination",
-            category=["School"],
+            category=["university"],
             prompt="Procrastination",
             random=True
         )
@@ -174,7 +174,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="tiredgeeks_school_stress",
-            category=["School"],
+            category=["university"],
             prompt="Stress",
             random=True
         )
@@ -195,7 +195,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="tiredgeeks_professors",
-            category=["School"],
+            category=["university"],
             prompt="Professors",
             random=True
         )
@@ -216,7 +216,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="tiredgeeks_study_spots",
-            category=["School"],
+            category=["university"],
             prompt="Study Spots",
             random=True
         )
